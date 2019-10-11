@@ -45,3 +45,14 @@ RUN_MODE = 'STAGING'
 #         },
 #     }
 # )
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',  # 默认用mysql
+        'NAME': 'bk_sops_ce_db',                        # 数据库名 (默认与APP_ID相同)
+        'USER': 'bk_sops_ce_db',                            # 你的数据库user
+        'PASSWORD': 'bk_sops_ce_db@2018',                        # 你的数据库password
+        'HOST': '172.16.127.33',                           # 数据库HOST
+        'PORT': '3306',                        # 默认3306
+    },
+}

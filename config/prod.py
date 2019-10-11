@@ -33,15 +33,15 @@ RUN_MODE = 'PRODUCT'
 # 正式环境数据库可以在这里配置
 # USE FOLLOWING SQL TO CREATE THE DATABASE NAMED APP_CODE
 # SQL: CREATE DATABASE `bk_sops` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-# DATABASES = (
-#     {
-#         'default': {
-#             'ENGINE': 'django.db.backends.mysql',
-#             'NAME': '',  # 外部数据库名
-#             'USER': '',  # 外部数据库用户
-#             'PASSWORD': '',  # 外部数据库密码
-#             'HOST': '',  # 外部数据库主机
-#             'PORT': '',  # 外部数据库端口
-#         },
-#     }
-# )
+DATABASES = (
+    {
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'bk_sops_ce_prod',  # 外部数据库名
+            'USER': 'bk_sops_ce_prod',  # 外部数据库用户
+            'PASSWORD': 'bk_sops_ce_prod@2018',  # 外部数据库密码
+            'HOST': '172.16.127.33',  # 外部数据库主机
+            'PORT': '3306',  # 外部数据库端口
+        },
+    }
+)

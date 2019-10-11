@@ -8,9 +8,15 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+<<<<<<< HEAD
 env/
 build/
 develop-eggs/
+=======
+build/
+develop-eggs/
+dist/
+>>>>>>> ee55af333aed278200d3f3f7881c0d9bb66b1a1b
 downloads/
 eggs/
 .eggs/
@@ -18,9 +24,18 @@ lib/
 lib64/
 parts/
 sdist/
+<<<<<<< HEAD
 *.egg-info/
 .installed.cfg
 *.egg
+=======
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+>>>>>>> ee55af333aed278200d3f3f7881c0d9bb66b1a1b
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -40,17 +55,33 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
+<<<<<<< HEAD
 .cover/
 .hypothesis/
 
 # Translations
+=======
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+>>>>>>> ee55af333aed278200d3f3f7881c0d9bb66b1a1b
 *.pot
 
 # Django stuff:
 *.log
 local_settings.py
+<<<<<<< HEAD
 
 # Flask stuff:
+=======
+db.sqlite3
+
+# Flask stuff:
+instance/
+>>>>>>> ee55af333aed278200d3f3f7881c0d9bb66b1a1b
 .webassets-cache
 
 # Scrapy stuff:
@@ -62,7 +93,11 @@ docs/_build/
 # PyBuilder
 target/
 
+<<<<<<< HEAD
 # IPython Notebook
+=======
+# Jupyter Notebook
+>>>>>>> ee55af333aed278200d3f3f7881c0d9bb66b1a1b
 .ipynb_checkpoints
 
 # pyenv
@@ -71,6 +106,7 @@ target/
 # celery beat schedule file
 celerybeat-schedule
 
+<<<<<<< HEAD
 # dotenv
 .env
 
@@ -80,10 +116,28 @@ ENV/
 
 # Spyder project settings
 .spyderproject
+=======
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+>>>>>>> ee55af333aed278200d3f3f7881c0d9bb66b1a1b
 
 # Rope project settings
 .ropeproject
 
+<<<<<<< HEAD
 # PyCharm project settings
 .idea
 
@@ -99,3 +153,10 @@ webpack_cache
 
 # Editor setting file
 .vscode/
+=======
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+>>>>>>> ee55af333aed278200d3f3f7881c0d9bb66b1a1b
